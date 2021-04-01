@@ -1,0 +1,94 @@
+/*common css*/
+#top {
+  text-shadow: 0 0 6px #FF0000;
+  font-size:50px;
+  
+}
+#sub{
+	height:2500px;
+	width:100%;
+	}
+/* downloads css*/
+#downimg{
+	width:600px;
+	height:300px;
+	float:left;
+}
+
+#downdiv{
+	width:1300px;
+	height:600px;
+	padding: 10px;
+	margin:50px;
+}
+
+#divnote{
+	width:650px;
+	float:right;
+	height:300px;
+	
+}
+#downnote{
+	font-family:Calibri;
+	line-height: 1.8;
+	font-weight:normal;
+	font-size:25px;
+}
+/*staff css*/
+#smemb1{
+	width:49%;
+	height:310px;
+	margin-top:20px;
+
+	float:left;
+}
+#smemb2{
+	width:49%;
+	height:310px;
+	margin-top:20px;
+	
+	float:right;
+}
+#spropic{
+	width:300px;
+	height:300px;
+}
+#sdetails{
+	width:50%;
+	height:300px;
+	
+	float:right;
+}
+/*Service css*/
+#ssub{
+	width:100%;
+	height:1000px;
+}
+#serul{
+	line-height: 2.5;
+	font-size:25px;
+}
+/*About us css */
+#asub{
+	padding:50px;
+	width:1400px;
+	height:500px;
+}
+#abp{
+	align:center;
+	line-height: 2.5;
+	font-size:25px;
+}
+/*Notice css*/
+#nsub{
+	margin-left:100px;
+	width:1200px;
+	height:800px;
+}
+#note{
+	width:900px;
+	height:200px;
+	border-left: 6px solid red;
+	background-color: lightgrey;
+	border-radius: 8px;
+}

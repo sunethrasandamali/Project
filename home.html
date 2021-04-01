@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>
+	University of Ruhuna General Administation./home
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	</head>
+	<body>
+		<div>
+			<table width="100%" height="150px" id="table">
+			<tr><td><img src="resources/logo2.png" id="image"><nav>
+				<ul>
+					<li id="tb"><a href="home.html" id="navit">Home</a></li>
+					<li id="tb"><a href="staff.html" id="navit">Staff</a></li>
+					<li id="tb"><a href="service.html" id="navit">Service</a></li>
+					<li id="tb"><a href="notice.html" id="navit">Notice</a></li>
+					<li id="tb"><a href="downloads.html" id="navit">Downloads</a></li>
+					<li id="tb"><a href="about.html" id="navit">About us</a></li>
+					
+				</ul>
+			</nav></td></tr>
+			</table>
+		</div>
+		<div id="main">
+			
+			<table id="slide">
+			<tr>
+			<td>
+				<img class="mySlides" src="resources/slide1.jpg" width="100%" height="500px">
+				<img class="mySlides" src="resources/slide2.png" width="100%" height="500px">
+				<img class="mySlides" src="resources/slide3.png" width="100%" height="500px">
+				
+			</td>
+			</tr>
+			</table></div>
+		
+		<div id="vision"><br><br><br><br><br><br><br><br><br><br><br>
+	
+		<div id="prodiv">
+			<table><tr><td>
+			<img src="resources/dir.jpg" id="propic"></td><td>
+			<p class="headtext">"This a director message"</p></td></tr></table>
+			
+		</div>
+		
+		</div>
+		<div id="grad1">
+			<p id="last" align="center"><br>Copyright 2019 &copy; General Administator Division University of Ruhuna Sri Lanka<br>All rights reserved.</p><P align="center"><br>DESIGNED BY WEB TEAM 8 - DEPARTMENT OF COMPUTER SCIENCE.</P>
+		</div>
+		
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+	</body>
+
+
+</html>

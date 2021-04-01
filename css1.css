@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: times New Roman;
+	font-weight:bold;
+
+	
+}
+#main{
+	width: 100%;
+	height: 100%;
+	
+	
+	
+	
+}
+#tb:hover{
+	background-color:#f39d1a; 
+}
+
+
+
+
+}
+.mySlides{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width:100%;
+	height:500px;
+	
+	
+}
+.headtext{
+	margin: 50px;
+	padding: 0;
+	font-family: times New Roman;
+	font-weight:normal;
+	font-size:30px;
+}
+
+#propic{
+	width:300px;
+	height:300px;
+	margin-top:50px;
+	margin-left:50px;
+	
+	
+}
+#prodiv{
+	width:1300px;
+	margin-left:100px;
+	border-style: double;
+	height:400px;
+	border: 2px solid blue;
+  border-radius: 8px;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #0000;
+}
+#grad1 {
+	height: 140px;
+	background-color: red;
+	background-image: linear-gradient(#935116,#A93226);
+}
+#last{
+	font-size:25px;
+	color:white;
+}
+#table{
+	background: linear-gradient(to bottom, #003366 0%, #ffffff 100%);
+	border: 1px solid black;
+}
+#slide{
+	 margin-left:auto; margin-right:auto;
+}
+nav ul {
+	float:right;
+	margin-right:30px;
+}
+#vision{
+	height:800px;
+	  border-bottom: 6px solid red;
+  background-color: lightgrey;
+}
+nav ul li{
+	list-style-type: none;
+	display:inline-block;
+	line-height:50px;
+	transition:0.9s all;
+}
+#navit{
+	text-decoration:none;
+	color:black;
+	padding:30px;
+	font-size:25px;
+	
+}
